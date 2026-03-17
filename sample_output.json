@@ -1,0 +1,77 @@
+{
+  "repo": "langfuse/langfuse",
+  "total_issues": 5,
+  "generated_at": "2026-03-17T15:34:55.135461Z",
+  "issues": [
+    {
+      "issue": {
+        "number": 12608,
+        "title": "bug: fast mode fails with 'Unknown table expression identifier events_core'",
+        "labels": ["🐞❔ unconfirmed bug"],
+        "author": "Tiggu"
+      },
+      "classification": {
+        "severity": "high",
+        "category": "bug",
+        "recommended_action": "Fix immediately",
+        "reasoning": "Critical feature (Fast mode) completely fails and renders UI unusable when enabled, though workaround exists."
+      }
+    },
+    {
+      "issue": {
+        "number": 12626,
+        "title": "bug: Pydantic V2 compatibility issues in pydantic_utilities.py",
+        "labels": ["🐞❔ unconfirmed bug"],
+        "author": "VenomVendor"
+      },
+      "classification": {
+        "severity": "high",
+        "category": "bug",
+        "recommended_action": "Fix immediately",
+        "reasoning": "Compatibility issue with newer Pydantic versions that could break integrations for users upgrading dependencies."
+      }
+    },
+    {
+      "issue": {
+        "number": 12614,
+        "title": "Allow using metadata fields as Breakdown Dimension in Dashboard Widgets",
+        "labels": [],
+        "author": "tjain1511"
+      },
+      "classification": {
+        "severity": "medium",
+        "category": "feature",
+        "recommended_action": "Add to roadmap",
+        "reasoning": "Feature request to enhance dashboard functionality by allowing metadata fields as breakdown dimensions."
+      }
+    },
+    {
+      "issue": {
+        "number": 12635,
+        "title": "bug: Support cache_read_input_tokens in OTEL for accurate Anthropic cost calculation",
+        "labels": ["🐞❔ unconfirmed bug"],
+        "author": "saurabhbidwai-hoc"
+      },
+      "classification": {
+        "severity": "medium",
+        "category": "bug",
+        "recommended_action": "Fix in next sprint",
+        "reasoning": "Cost calculation issue that leads to inaccurate billing for cached tokens but doesn't break core functionality."
+      }
+    },
+    {
+      "issue": {
+        "number": 12623,
+        "title": "bug: Json Parsing Error on Load Balancer/Proxy errors",
+        "labels": ["🐞❔ unconfirmed bug"],
+        "author": "dacrymn"
+      },
+      "classification": {
+        "severity": "low",
+        "category": "bug",
+        "recommended_action": "Fix in next sprint",
+        "reasoning": "Minor UI issue with error handling that doesn't affect core functionality but degrades user experience."
+      }
+    }
+  ]
+}
